@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bagBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="60%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="goldBadge4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="dropShadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#0f172a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#dropShadow4)" transform="translate(50, 40)">
+    <path d="M 30 50 Q 150 40 270 50 L 290 410 Q 150 430 10 410 Z" fill="url(#bagBg4)" />
+    <path d="M 20 40 L 280 40 L 270 55 L 30 55 Z" fill="#1e40af" stroke="#93c5fd" stroke-dasharray="4,4" stroke-width="2"/>
+    
+    <rect x="35" y="75" width="230" height="70" rx="6" fill="#ffffff" />
+    <text x="150" y="105" font-family="Inter, sans-serif" font-size="18" font-weight="900" fill="#0284c7" text-anchor="middle" letter-spacing="1">AquaGrow Feeds</text>
+    <text x="150" y="130" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#2563eb" text-anchor="middle" letter-spacing="2">BIOFLOC & CAGE SPECIAL</text>
+
+    <rect x="25" y="165" width="250" height="85" rx="10" fill="#ffffff" fill-opacity="0.12" stroke="#93c5fd" stroke-width="1.5" />
+    <text x="150" y="195" font-family="Inter, sans-serif" font-size="19" font-weight="800" fill="#ffffff" text-anchor="middle">TILAPIA INTENSIVE</text>
+    <text x="150" y="222" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#bfdbfe" text-anchor="middle">GIFT Tilapia • Red Tilapia</text>
+    <text x="150" y="240" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#dbeafe" text-anchor="middle">Floating Pellets: 2.5mm - 3.5mm</text>
+
+    <g transform="translate(45, 270)">
+      <circle cx="45" cy="40" r="34" fill="#ffffff" />
+      <text x="45" y="35" font-family="Inter, sans-serif" font-size="18" font-weight="900" fill="#0284c7" text-anchor="middle">30%</text>
+      <text x="45" y="52" font-family="Inter, sans-serif" font-size="9" font-weight="700" fill="#64748b" text-anchor="middle">PROTEIN</text>
+
+      <circle cx="165" cy="40" r="34" fill="#ffffff" />
+      <text x="165" y="35" font-family="Inter, sans-serif" font-size="18" font-weight="900" fill="#2563eb" text-anchor="middle">4.0%</text>
+      <text x="165" y="52" font-family="Inter, sans-serif" font-size="9" font-weight="700" fill="#64748b" text-anchor="middle">CRUDE FAT</text>
+    </g>
+
+    <rect x="40" y="360" width="220" height="36" rx="6" fill="url(#goldBadge4)" />
+    <text x="150" y="384" font-family="Inter, sans-serif" font-size="15" font-weight="800" fill="#78350f" text-anchor="middle">NET WEIGHT: 25 KG</text>
+  </g>
+</svg>

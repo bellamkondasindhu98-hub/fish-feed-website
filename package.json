@@ -1,0 +1,24 @@
+{
+  "name": "aquagrow-fish-feed-platform",
+  "version": "1.0.0",
+  "description": "Complete full-stack platform for AquaGrow Feeds India Pvt. Ltd. featuring WhatsApp ordering, product comparison, CEO & company profiling, reviews, and executive admin dashboard.",
+  "scripts": {
+    "seed": "node database/seed/seed.js",
+    "backend": "node backend/server.js",
+    "test:backend": "cd backend && npm test",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "fish-feed",
+    "aquaculture",
+    "whatsapp-commerce",
+    "react",
+    "nodejs",
+    "sqlite",
+    "tailwind"
+  ],
+  "author": "AquaGrow Feeds India Pvt. Ltd.",
+  "license": "ISC"
+}
